@@ -1,0 +1,113 @@
+header, nav, main, footer, aside {
+        display: block;
+    }
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+#container {
+    background-color: #EEEEEE;
+    color: #006600;
+    min-width: 960px;
+    font-family: Verdana, Arial, sans-serif;
+}
+header {
+    background-color: #636631;
+    background-image: url(bible.jpg);/* Using the following public domain image: https://pixabay.com/en/bible-verse-god-pen-holy-ghost-1414669/ */
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 120px;
+    color: #FFFFFF;
+    text-align: right;
+    padding: 0 20px;
+    border-bottom: 2px solid #000000;
+}
+nav {
+    float: left;
+    width: 150px;
+}
+aside {
+    float: right;
+    width: 200px;
+}
+main {
+    margin: 0 210px 0 160px;
+    padding: 1px 10px 20px 10px;
+    background-color: #FFFFFF;
+    color: #006600;
+}
+footer {
+    font-size: .70em;
+    text-align: center;
+    color: #006600;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    clear: both;
+}
+h1 {
+    margin-top: 0;
+    font-size: 3em;
+    text-align: left;
+    text-shadow: 2px 2px 2px #000000;
+}
+header a {
+    font-size: 0.80em;
+}
+header a:link, header a:visited {
+    color: #FFFFFF;
+}
+header a:focus, header a:hover {
+    color: #EEEEEE;
+}
+nav ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    font-size: .80em;
+}
+nav a:link {
+    color: #006600;
+}
+nav a:visited {
+    color: #003300;
+}
+nav a:focus, nav a:hover {
+    color: #333333;
+}
+nav a:active {
+    color: #000000;
+}
+nav img {
+    margin: 20px;
+}
+main p {
+    margin: 20px;
+}
+main h2, main h3 {
+    color: #333333;
+    background-color: #FFFFFF;
+}
+#floatright {
+    margin: 10px;
+    float: right;
+}
+nav h3 {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #000000;
+    margin: 10px;
+    font-size: 0.90em;
+    color: #333333;
+}
+aside h3 {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #000000;
+    margin: 10px;
+    font-size: 0.90em;
+    color: #333333;
+}
+.lists {
+    font-size: 0.80em;
+    margin: 10px;
+}
